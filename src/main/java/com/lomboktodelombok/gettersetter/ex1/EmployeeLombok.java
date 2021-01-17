@@ -1,4 +1,11 @@
-package com.lomboktodelombok.gettersetter;
+/**
+ * @Author: Anurag Muthyam
+ * Email: anu.drumcoder@gmail.com
+ * GitHub: https://github.com/aryaghan-mutum
+ * Feature: Annotating Fields with @Getter and @Setter
+ */
+
+package com.lomboktodelombok.gettersetter.ex1;
 
 import lombok.Getter;
 import lombok.Setter;
