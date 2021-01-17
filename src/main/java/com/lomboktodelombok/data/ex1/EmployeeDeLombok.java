@@ -6,7 +6,7 @@
  */
 
 
-package com.lomboktodelombok.data;
+package com.lomboktodelombok.data.ex1;
 
 import java.util.Objects;
 

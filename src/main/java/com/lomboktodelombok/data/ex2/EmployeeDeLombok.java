@@ -6,22 +6,19 @@
  */
 
 
-package com.lomboktodelombok.data;
+package com.lomboktodelombok.data.ex2;
 
-import lombok.*;
+public class EmployeeDeLombok {
 
-/**
- * The below commented code is equal to @Data
- */
-//@Getter
-//@Setter
-//@RequiredArgsConstructor
-//@ToString
-//@EqualsAndHashCode
-@Data
-public class EmployeeLombok {
     private int id;
     private String name;
     private double salary;
     private String jobTitle;
+
+    private EmployeeDeLombok() {
+    }
+
+    public static EmployeeDeLombok construct() {
+        return new EmployeeDeLombok();
+    }
 }
