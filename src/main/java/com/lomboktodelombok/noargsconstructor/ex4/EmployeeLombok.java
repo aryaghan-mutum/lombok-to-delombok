@@ -9,7 +9,7 @@ package com.lomboktodelombok.noargsconstructor.ex4;
 
 import lombok.NoArgsConstructor;
 
-@NoArgsConstructor(onConstructor_= @Deprecated )
+@NoArgsConstructor(onConstructor_ = @Deprecated)
 public class EmployeeLombok {
     private int id;
     private String name;
